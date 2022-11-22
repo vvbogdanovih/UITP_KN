@@ -18,6 +18,7 @@ def start(message):
 	print("/t\t" + message.from_user.first_name + " " +  datetime.datetime.today().strftime("%H:%M:%S %d.%m.%Y"))
 	bot.reply_to(message, "1 пара:	8.30-10.05\n2 пара:	10.20-11.55\n3 пара:	12.10-13.45\n4 пара:	14.30-16.05\n5 пара:	16.20-17.35")
 
+#asdasd
 #Команда SOS
 @bot.message_handler(commands=['sos'])
 def start(message):
