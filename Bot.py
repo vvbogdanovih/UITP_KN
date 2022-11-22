@@ -66,7 +66,8 @@ def start(message):
 def start(message):
     print("/p14\t" + message.from_user.first_name + " " + datetime.datetime.today().strftime("%H:%M:%S %d.%m.%Y"))
     bot.reply_to(message, "Підгрупа №1\nЧетвер\n\n1 пара:   Веб\n2 пара:    Моделювання систем\n3 пара: ШНМ\n4 пара:    -\n5 пара:  -")
-=======
+
+
 #time to start paras
 @bot.message_handler(commands=['ts'])
 def start(message):	
@@ -177,7 +178,7 @@ def start(message):
    print("/p25\t" + message.from_user.first_name + " " +  datetime.datetime.today().strftime("%H:%M:%S %d.%m.%Y"))
    bot.reply_to(message, "Підгрупа №2\nП'ятниця\n\n1 пара:    -\n2 пара:    Програмування моб. систем\n3 пара:  Управління ІТ-проектами\n4 пара:    -\n5 пара:  -")
 
-bot.polling(none_stop=True)
+
 
 
 #help comand
@@ -217,3 +218,6 @@ def start(message):
 		bot.send_message(1004329909, str2)
 	else:
 		print("/send\t" + message.from_user.first_name + ", скористався адмінською командою. ID " + str(message.from_user.id))
+
+
+bot.polling(none_stop=True)
