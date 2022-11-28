@@ -69,6 +69,7 @@ def start(message):
     bot.reply_to(message, "Підгрупа №1\nЧетвер\n\n1 пара:   Веб\n2 пара:    Моделювання систем\n3 пара: ШНМ\n4 пара:    -\n5 пара:  -")
 
 
+#commit in Vlad_2_Branch
 #time to start paras
 @bot.message_handler(commands=['ts'])
 def start(message):	
