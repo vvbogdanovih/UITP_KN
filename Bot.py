@@ -6,6 +6,8 @@ TOKEN = '1835690901:AAEwesdwqsht2mQhmn2Znp4ipSF7F9tN5no'
 bot = telebot.TeleBot(TOKEN)
 tconv = lambda x: time.strftime("%H:%M:%S %d.%m.%Y", time.localtime(x)) #Конвертацsя датb в читабельний вид
 
+#commit by  Vlad_2_1_Branch
+
 #help comand
 @bot.message_handler(commands=['help'])
 def start(message):
