@@ -72,6 +72,7 @@ def start(message):
     bot.reply_to(message, "Підгрупа №1\nП'ятниця\n\n1 пара: -\n2 пара:  ООАП\n3 пара:   Програмування моб.с.\n4 пара:   -\n5 пара:  -")
 
 #розклад для 2 підгрупи
+#test2
 @bot.message_handler(commands=['р21', 'p21'])
 def start(message):
    print("/p21\t" + message.from_user.first_name + " " +  datetime.datetime.today().strftime("%H:%M:%S %d.%m.%Y"))
