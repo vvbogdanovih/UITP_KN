@@ -45,6 +45,7 @@ def start(message):
 		print("/send\t" + message.from_user.first_name + ", скористався адмінською командою. ID " + str(message.from_user.id))
 #-------------------------------РОЗКЛАД----------------------------------
 #test1
+#test1-1
 #розклад для 1 підгрупи
 @bot.message_handler(commands=['р11', 'p11'])
 def start(message):
